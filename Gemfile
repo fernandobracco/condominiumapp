@@ -69,6 +69,9 @@ gem 'simple_form'
 gem 'sidekiq'
 gem 'kramdown'
 
+## CHANDLER - GEMA PARA SEPARAÇÃO EM PÁGINAS
+gem 'will_paginate', '~> 3.1.0'
+
 group :development, :test do
   gem 'better_errors'
   gem 'guard'
