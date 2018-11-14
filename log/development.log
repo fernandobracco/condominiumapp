@@ -4768,3 +4768,1974 @@ Processing by MessagesController#index as HTML
 Completed 200 OK in 200ms (Views: 173.2ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-13 18:21:24 -0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 32ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 18:21:50 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (826.9ms)
+Completed 500 Internal Server Error in 1646ms (ActiveRecord: 1.5ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___791108425_57729564'
+
+Started POST "/__better_errors/3376d5a40b952939/variables" for 127.0.0.1 at 2018-11-13 18:21:52 -0200
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-13 18:21:54 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-11-13 18:22:15 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 18:22:17 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (84.8ms)
+Completed 500 Internal Server Error in 467ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___791108425_97440864'
+
+Started POST "/__better_errors/b685d709cb28af69/variables" for 127.0.0.1 at 2018-11-13 18:22:18 -0200
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 18:26:05 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (96.8ms)
+Completed 500 Internal Server Error in 567ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___791108425_72707628'
+
+Started POST "/__better_errors/acab7077ebe31587/variables" for 127.0.0.1 at 2018-11-13 18:26:07 -0200
+Started GET "/" for 127.0.0.1 at 2018-11-13 18:26:09 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 18:26:09 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (67.6ms)
+Completed 500 Internal Server Error in 502ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___791108425_75181716'
+
+Started POST "/__better_errors/93fcbb6704361325/variables" for 127.0.0.1 at 2018-11-13 18:26:10 -0200
+Started GET "/rails/info/routes" for 127.0.0.1 at 2018-11-13 18:27:56 -0200
+Processing by Rails::InfoController#routes as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [37 times] (15.5ms)
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (199.0ms)
+Completed 200 OK in 913ms (Views: 688.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/conversation_messages_path" for 127.0.0.1 at 2018-11-13 18:28:26 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/conversation_messages_path"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/conversations" for 127.0.0.1 at 2018-11-13 18:29:14 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 18:29:14 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (200.6ms)
+Completed 500 Internal Server Error in 708ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___791108425_35268600'
+
+Started POST "/__better_errors/3cef97857e75ac66/variables" for 127.0.0.1 at 2018-11-13 18:29:15 -0200
+Started GET "/home" for 127.0.0.1 at 2018-11-13 18:30:12 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-11-13 18:31:54 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 18:31:54 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (190.6ms)
+Completed 500 Internal Server Error in 689ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___791108425_77210028'
+
+Started POST "/__better_errors/f215d21c5513b089/variables" for 127.0.0.1 at 2018-11-13 18:31:55 -0200
+Started GET "/" for 127.0.0.1 at 2018-11-13 19:21:36 -0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 31ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 19:22:00 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 19:22:00 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (193.4ms)
+Completed 500 Internal Server Error in 894ms (ActiveRecord: 3.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___135077272_46039932'
+
+Started POST "/__better_errors/8adf2c9a8268cfb6/variables" for 127.0.0.1 at 2018-11-13 19:22:02 -0200
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 19:22:02 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (122.7ms)
+Completed 500 Internal Server Error in 696ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___135077272_90934092'
+
+Started POST "/__better_errors/7c15d9657dbc956f/variables" for 127.0.0.1 at 2018-11-13 19:22:04 -0200
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 19:26:03 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (111.4ms)
+Completed 500 Internal Server Error in 1724ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::ArgumentError - require_tree argument must be a directory:
+  app/assets/javascripts/cable.js:6:in `'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___135077272_112280328'
+
+Started POST "/__better_errors/5f1ec77866bd6154/variables" for 127.0.0.1 at 2018-11-13 19:26:06 -0200
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 19:30:15 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (84.2ms)
+Completed 500 Internal Server Error in 586ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::ArgumentError - require_tree argument must be a directory:
+  app/assets/javascripts/cable.js:6:in `'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___135077272_113737872'
+
+Started POST "/__better_errors/9b0744cb5ea0063d/variables" for 127.0.0.1 at 2018-11-13 19:30:16 -0200
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 19:30:52 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (88.7ms)
+Completed 200 OK in 1692ms (Views: 1687.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-13 19:31:38 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (79.9ms)
+Completed 200 OK in 489ms (Views: 487.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-11-13 19:32:10 -0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3dujqjqupNSVUZ/pJB8EdA03VrZRkpTYEWezYGHcsE2UHYVrF6f6suIjGHm5rPaAzJL4ai4ois5A+Y+iHTY9Ng==", "user"=>{"name"=>"amado batista", "email"=>"amado.batista@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (22.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "amado.batista@gmail.com"], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (6.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "amado.batista@gmail.com"], ["encrypted_password", "$2a$11$fNyF9zv0eh/H0FnRVGslK.bCYvv9B9TB4V3Mx.PI2aDq3Ui756hIe"], ["name", "amado batista"], ["created_at", "2018-11-13 21:32:11.398001"], ["updated_at", "2018-11-13 21:32:11.398001"]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (99.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (2.0ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", "2018-11-13 21:32:11.589806"], ["last_sign_in_at", "2018-11-13 21:32:11.589806"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["updated_at", "2018-11-13 21:32:11.593014"], ["id", 4]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (112.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 1107ms (ActiveRecord: 242.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 19:32:12 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  Rendered conversations/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 569ms (Views: 339.4ms | ActiveRecord: 5.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-13 19:32:21 -0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dvPrGVa3E/zG+w+UQuxTfouKIES7WEDDNiAtxnEzKTe1u1dwEs/Ca/jJlh6d0IvChtlPVNmpWtrYBLIuaJZ2Sw=="}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 55ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 19:32:21 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 19:32:21 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (72.9ms)
+Completed 200 OK in 527ms (Views: 525.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-13 19:32:28 -0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YSBvMopcjdfPbMZ/hXk3amW8ZjQWve8FxFGeLrwfkjxqbaoOKesEXryRdstLlZlzEDgozs1zvaniVVN8in5U3Q==", "user"=>{"email"=>"lknfk", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "lknfk"], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.5ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YSBvMopcjdfPbMZ/hXk3amW8ZjQWve8FxFGeLrwfkjxqbaoOKesEXryRdstLlZlzEDgozs1zvaniVVN8in5U3Q==", "user"=>{"email"=>"lknfk", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (83.8ms)
+Completed 200 OK in 751ms (Views: 491.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-13 19:32:39 -0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nctb4dmAPpqALoqBplhEQ85bV0MtkXBpDCPwVWdIFwCWhp7deje3E/PTOjVotOpau98ZufZfIsUqJz0HUSnR4Q==", "user"=>{"email"=>"amado.batista@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "amado.batista@gmail.com"], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (2.0ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-11-13 21:32:39.674551"], ["sign_in_count", 2], ["updated_at", "2018-11-13 21:32:39.677545"], ["id", 4]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (173.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 865ms (ActiveRecord: 176.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 19:32:40 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  Rendered conversations/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 353ms (Views: 297.4ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/conversations?recipient_id=2&sender_id=4" for 127.0.0.1 at 2018-11-13 19:32:59 -0200
+Processing by ConversationsController#create as HTML
+  Parameters: {"authenticity_token"=>"+eVM9YYruYq6pnRuBtr0ddZWo6fwIVkTFcegFXhKDRC5rNUTq1SoffI3VaLUQQeD/JZ9U0pfZz+uPawSceYE+Q==", "recipient_id"=>"2", "sender_id"=>"4"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations" WHERE ((conversations.sender_id = '4' AND conversations.recipient_id = '2') OR (conversations.sender_id = '2' AND conversations.recipient_id = '4'))[0m
+  ↳ app/controllers/conversations_controller.rb:10
+Unpermitted parameters: :_method, :authenticity_token
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mConversation Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "conversations" WHERE "conversations"."sender_id" = ? AND "conversations"."recipient_id" = ? LIMIT ?[0m  [["sender_id", 4], ["recipient_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mConversation Create (2.0ms)[0m  [1m[32mINSERT INTO "conversations" ("sender_id", "recipient_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["sender_id", 4], ["recipient_id", 2], ["created_at", "2018-11-13 21:32:59.929403"], ["updated_at", "2018-11-13 21:32:59.929403"]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[35m (103.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/conversations_controller.rb:13
+Redirected to http://localhost:3000/conversations/4/messages
+Completed 302 Found in 442ms (ActiveRecord: 107.5ms)
+
+
+Started GET "/conversations/4/messages" for 127.0.0.1 at 2018-11-13 19:33:00 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"4"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 4]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (11.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 471ms (Views: 334.3ms | ActiveRecord: 14.0ms)
+
+
+Started POST "/conversations/4/messages" for 127.0.0.1 at 2018-11-13 19:33:05 -0200
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j90123kzZRVnQozBzkR8Eat3OzSSId2PI4hXnd4GlGTPlKw9VEx04i/TrQ0c34/ngbflwChf46OYclua16qdjQ==", "message"=>{"body"=>"olar\r\n", "user_id"=>"4"}, "commit"=>"Send message", "conversation_id"=>"4"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/messages_controller.rb:22
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:22
+  [1m[36mMessage Create (9.6ms)[0m  [1m[32mINSERT INTO "messages" ("body", "conversation_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["body", "olar\r\n"], ["conversation_id", 4], ["user_id", 4], ["created_at", "2018-11-13 21:33:05.727040"], ["updated_at", "2018-11-13 21:33:05.727040"]]
+  ↳ app/controllers/messages_controller.rb:22
+  [1m[35m (198.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/messages_controller.rb:22
+Redirected to http://localhost:3000/conversations/4/messages
+Completed 302 Found in 234ms (ActiveRecord: 208.7ms)
+
+
+Started GET "/conversations/4/messages" for 127.0.0.1 at 2018-11-13 19:33:05 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"4"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 4]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:10
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (427.7ms)
+Completed 200 OK in 820ms (Views: 763.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 19:33:51 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (38.9ms)
+Completed 200 OK in 523ms (Views: 508.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 19:33:55 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 462ms (Views: 454.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 19:34:06 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  Rendered conversations/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 335ms (Views: 279.9ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/conversations?recipient_id=1&sender_id=4" for 127.0.0.1 at 2018-11-13 19:34:10 -0200
+Processing by ConversationsController#create as HTML
+  Parameters: {"authenticity_token"=>"CB8vpQL8WgQluCKu66rLwzKpqEuKq1RNQRnVmIB4pPdIVrZDL4NL820pA2I5MTg1GGl2vzDVamH649mfidStHg==", "recipient_id"=>"1", "sender_id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mConversation Load (1.0ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations" WHERE ((conversations.sender_id = '4' AND conversations.recipient_id = '1') OR (conversations.sender_id = '1' AND conversations.recipient_id = '4'))[0m
+  ↳ app/controllers/conversations_controller.rb:10
+Unpermitted parameters: :_method, :authenticity_token
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mConversation Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "conversations" WHERE "conversations"."sender_id" = ? AND "conversations"."recipient_id" = ? LIMIT ?[0m  [["sender_id", 4], ["recipient_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mConversation Create (30.4ms)[0m  [1m[32mINSERT INTO "conversations" ("sender_id", "recipient_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["sender_id", 4], ["recipient_id", 1], ["created_at", "2018-11-13 21:34:10.723944"], ["updated_at", "2018-11-13 21:34:10.723944"]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[35m (108.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/conversations_controller.rb:13
+Redirected to http://localhost:3000/conversations/5/messages
+Completed 302 Found in 186ms (ActiveRecord: 144.2ms)
+
+
+Started GET "/conversations/5/messages" for 127.0.0.1 at 2018-11-13 19:34:10 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"5"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 5]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (11.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (59.0ms)
+Completed 200 OK in 454ms (Views: 379.7ms | ActiveRecord: 12.6ms)
+
+
+Started POST "/conversations/5/messages" for 127.0.0.1 at 2018-11-13 19:37:57 -0200
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hriC/CCYu+scvM3jlnCpeT62XqlDMskXzrVZQRExc/DG8RsaDeeqHFQt7C9E61qPFHaAXflM9zt1T1VGGJ16GQ==", "message"=>{"body"=>"ola eu sou o bot do amado batista\r\n", "user_id"=>"4"}, "commit"=>"Send message", "conversation_id"=>"5"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/messages_controller.rb:22
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:22
+  [1m[36mMessage Create (2.0ms)[0m  [1m[32mINSERT INTO "messages" ("body", "conversation_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["body", "ola eu sou o bot do amado batista\r\n"], ["conversation_id", 5], ["user_id", 4], ["created_at", "2018-11-13 21:37:57.472023"], ["updated_at", "2018-11-13 21:37:57.472023"]]
+  ↳ app/controllers/messages_controller.rb:22
+  [1m[35m (122.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/messages_controller.rb:22
+Redirected to http://localhost:3000/conversations/5/messages
+Completed 302 Found in 151ms (ActiveRecord: 125.2ms)
+
+
+Started GET "/conversations/5/messages" for 127.0.0.1 at 2018-11-13 19:37:57 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"5"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 5]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:10
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 371ms (Views: 312.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 19:38:21 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  Rendered conversations/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 335ms (Views: 285.8ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/conversations?recipient_id=3&sender_id=4" for 127.0.0.1 at 2018-11-13 19:38:24 -0200
+Processing by ConversationsController#create as HTML
+  Parameters: {"authenticity_token"=>"PpZhpEOEv/5CU5L5AHjgLQieCGsMUJTIPY9CebF5ZAF+3/hCbvuuCQrCszXS4xPbIl7Wn7YuquSGdU5+uNVt6A==", "recipient_id"=>"3", "sender_id"=>"4"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations" WHERE ((conversations.sender_id = '4' AND conversations.recipient_id = '3') OR (conversations.sender_id = '3' AND conversations.recipient_id = '4'))[0m
+  ↳ app/controllers/conversations_controller.rb:10
+Unpermitted parameters: :_method, :authenticity_token
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mConversation Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "conversations" WHERE "conversations"."sender_id" = ? AND "conversations"."recipient_id" = ? LIMIT ?[0m  [["sender_id", 4], ["recipient_id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[36mConversation Create (2.5ms)[0m  [1m[32mINSERT INTO "conversations" ("sender_id", "recipient_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["sender_id", 4], ["recipient_id", 3], ["created_at", "2018-11-13 21:38:24.982106"], ["updated_at", "2018-11-13 21:38:24.982106"]]
+  ↳ app/controllers/conversations_controller.rb:13
+  [1m[35m (117.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/conversations_controller.rb:13
+Redirected to http://localhost:3000/conversations/6/messages
+Completed 302 Found in 154ms (ActiveRecord: 122.6ms)
+
+
+Started GET "/conversations/6/messages" for 127.0.0.1 at 2018-11-13 19:38:25 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"6"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (1.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 6]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 355ms (Views: 298.1ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/conversations/6/messages" for 127.0.0.1 at 2018-11-13 19:38:36 -0200
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RNfGYwT7feUnvkwszsEISar7lSVYtxoRlHfMkbHDHrQEnl+FKYRsEm8vbeAcWvu/gDtL0eLJJD0vjcCWuG8XXQ==", "message"=>{"body"=>"who is this", "user_id"=>"4"}, "commit"=>"Send message", "conversation_id"=>"6"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/messages_controller.rb:22
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:22
+  [1m[36mMessage Create (2.0ms)[0m  [1m[32mINSERT INTO "messages" ("body", "conversation_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["body", "who is this"], ["conversation_id", 6], ["user_id", 4], ["created_at", "2018-11-13 21:38:36.174256"], ["updated_at", "2018-11-13 21:38:36.174256"]]
+  ↳ app/controllers/messages_controller.rb:22
+  [1m[35m (139.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/messages_controller.rb:22
+Redirected to http://localhost:3000/conversations/6/messages
+Completed 302 Found in 165ms (ActiveRecord: 142.5ms)
+
+
+Started GET "/conversations/6/messages" for 127.0.0.1 at 2018-11-13 19:38:36 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"6"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 6]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:10
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 411ms (Views: 352.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 19:38:41 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  Rendered conversations/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 340ms (Views: 283.5ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/conversations/5/messages" for 127.0.0.1 at 2018-11-13 19:38:46 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"5"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 5]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:10
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 336ms (Views: 274.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/id" for 127.0.0.1 at 2018-11-13 19:41:48 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/id"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[36mConversation Load (3.0ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 11]]
+  [1m[36mMessage Load (1.0ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:04:54 -0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (1.0ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  Rendered conversations/index.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 1237ms (Views: 1111.6ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:07:31 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  Rendered conversations/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 437ms (Views: 339.5ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/conversations?recipient_id=1&sender_id=4" for 127.0.0.1 at 2018-11-13 20:19:07 -0200
+Processing by ConversationsController#create as HTML
+  Parameters: {"authenticity_token"=>"rO0e1+/0YchgBpQbFd3v+QAEtDpL1noe0AIXeTAH9aHspIcxwotwPyiXtdfHRhwPKsRqzvGoRDJr+Bt+Oav8SA==", "recipient_id"=>"1", "sender_id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations" WHERE ((conversations.sender_id = '4' AND conversations.recipient_id = '1') OR (conversations.sender_id = '1' AND conversations.recipient_id = '4'))[0m
+  ↳ app/controllers/conversations_controller.rb:10
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE ((conversations.sender_id = '4' AND conversations.recipient_id = '1') OR (conversations.sender_id = '1' AND conversations.recipient_id = '4')) ORDER BY "conversations"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:11
+Redirected to http://localhost:3000/conversations/5/messages
+Completed 302 Found in 13ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/conversations/5/messages" for 127.0.0.1 at 2018-11-13 20:19:07 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"5"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 5]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:10
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (162.0ms)
+Completed 200 OK in 534ms (Views: 431.8ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:22:23 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  Rendered conversations/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 339ms (Views: 277.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:24:50 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  Rendered conversations/index.html.erb within layouts/application (67.9ms)
+Completed 200 OK in 390ms (Views: 327.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:04 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (180.0ms)
+Completed 200 OK in 642ms (Views: 634.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:07 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 456ms (Views: 439.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:09 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 445ms (Views: 426.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:11 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 433ms (Views: 423.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:17 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 442ms (Views: 431.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:18 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (41.9ms)
+Completed 200 OK in 488ms (Views: 477.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:19 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 425ms (Views: 420.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:19 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:20 -0200
+  Rendering devise/registrations/edit.html.erb within layouts/application
+Processing by Devise::RegistrationsController#edit as HTML
+  Rendered devise/registrations/edit.html.erb within layouts/application (17.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 893ms (Views: 885.5ms | ActiveRecord: 1.0ms)
+
+
+Completed 200 OK in 506ms (Views: 487.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 20:25:20 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 461ms (Views: 455.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:26:02 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:13
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:16
+  Rendered conversations/index.html.erb within layouts/application (63.6ms)
+Completed 200 OK in 426ms (Views: 351.3ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:27:15 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 401ms (Views: 280.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:27:45 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 381ms (Views: 324.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:28:40 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 386ms (Views: 284.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:29:02 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 378ms (Views: 314.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:29:06 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 339ms (Views: 287.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:29:15 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.0ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 330ms (Views: 280.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 20:29:44 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 334ms (Views: 269.7ms | ActiveRecord: 4.0ms)
+
+
+Started POST "/conversations?recipient_id=1&sender_id=4" for 127.0.0.1 at 2018-11-13 20:29:49 -0200
+Processing by ConversationsController#create as HTML
+  Parameters: {"authenticity_token"=>"OWdfqBL042XeyQcX69wOtWDIJdFxRYwSDVvqxfqkgIl5LsZOP4vykpZYJts5R/1DSgj7Jcs7sj62oebC8wiJYA==", "recipient_id"=>"1", "sender_id"=>"4"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations" WHERE ((conversations.sender_id = '4' AND conversations.recipient_id = '1') OR (conversations.sender_id = '1' AND conversations.recipient_id = '4'))[0m
+  ↳ app/controllers/conversations_controller.rb:10
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE ((conversations.sender_id = '4' AND conversations.recipient_id = '1') OR (conversations.sender_id = '1' AND conversations.recipient_id = '4')) ORDER BY "conversations"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/conversations_controller.rb:11
+Redirected to http://localhost:3000/conversations/5/messages
+Completed 302 Found in 13ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/conversations/5/messages" for 127.0.0.1 at 2018-11-13 20:29:50 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"5"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 5]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:10
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 338ms (Views: 283.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/conversations/4/messages" for 127.0.0.1 at 2018-11-13 20:29:54 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"4"}
+  [1m[36mConversation Load (1.0ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (2.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 4]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:10
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 367ms (Views: 306.2ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/conversations/4/messages" for 127.0.0.1 at 2018-11-13 20:30:13 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"4"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 4]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:10
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 351ms (Views: 280.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/conversations/4/messages" for 127.0.0.1 at 2018-11-13 20:30:21 -0200
+Processing by MessagesController#index as HTML
+  Parameters: {"conversation_id"=>"4"}
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/messages_controller.rb:40
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = ?[0m  [["conversation_id", 4]]
+  ↳ app/controllers/messages_controller.rb:7
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:1
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:10
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/messages/index.html.erb:26
+  Rendered messages/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 336ms (Views: 272.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 21:22:02 -0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+ActiveRecord::PendingMigrationError - Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+:
+
+Started POST "/__better_errors/dbb103a5bd393456/variables" for 127.0.0.1 at 2018-11-13 21:22:03 -0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+Migrating to CreateEncomendas (20181113223418)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20181113223418_create_encomendas.rb:3
+  [1m[35m (19.6ms)[0m  [1m[35mCREATE TABLE "encomendas" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "arrival" date, "departure" date, "name" varchar, "apart" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20181113223418_create_encomendas.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181113223418"]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[35m (98.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/bin/rake:22
+Started GET "/" for 127.0.0.1 at 2018-11-13 21:26:02 -0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  Rendered conversations/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 327ms (ActiveRecord: 1.5ms)
+
+
+
+SyntaxError - syntax error, unexpected keyword_end, expecting end-of-input
+     end 
+        ^:
+  app/views/conversations/index.html.erb:39:in `'
+
+Started POST "/__better_errors/e517f450682939d6/variables" for 127.0.0.1 at 2018-11-13 21:26:03 -0200
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2018-11-13 21:26:28 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  Rendered conversations/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 265ms (ActiveRecord: 0.5ms)
+
+
+
+SyntaxError - syntax error, unexpected keyword_ensure, expecting end-of-input:
+  app/views/conversations/index.html.erb:42:in `'
+
+Started POST "/__better_errors/fe49ae4850a5a680/variables" for 127.0.0.1 at 2018-11-13 21:26:29 -0200
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mConversation Load (1.0ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2018-11-13 21:26:45 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (147.4ms)
+Completed 200 OK in 6064ms (Views: 6002.8ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:27:22 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:17
+  Rendered encomendas/index.html.erb within layouts/application (7.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 361ms (Views: 309.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:29:55 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Load (1.0ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (5.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 359ms (Views: 286.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:29:59 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (4.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 345ms (Views: 291.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:30:18 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  Rendered encomendas/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 253ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected keyword_nil, expecting keyword_then or ';' or '\n'
+'.freeze;  if @encomendas.size != 0 nil 
+                                       ^
+C:/Users/Isabella/condominiumapp/app/views/encomendas/index.html.erb:38: syntax error, unexpected keyword_ensure, expecting end-of-input:
+  app/views/encomendas/index.html.erb:6:in `'
+
+Started POST "/__better_errors/c031e233e0863fb0/variables" for 127.0.0.1 at 2018-11-13 21:30:19 -0200
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:31:11 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  Rendered encomendas/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 265ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected keyword_nil, expecting keyword_then or ';' or '\n'
+'.freeze;  if length(@encomendas) != 0 nil 
+                                          ^
+C:/Users/Isabella/condominiumapp/app/views/encomendas/index.html.erb:38: syntax error, unexpected keyword_ensure, expecting end-of-input:
+  app/views/encomendas/index.html.erb:6:in `'
+
+Started POST "/__better_errors/b2a09dbc48b8a2b7/variables" for 127.0.0.1 at 2018-11-13 21:31:12 -0200
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:33:28 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered encomendas/index.html.erb within layouts/application (183.7ms)
+Completed 500 Internal Server Error in 447ms (ActiveRecord: 0.5ms)
+
+
+  [1m[36mCACHE Encomenda Load (0.0ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `empty' for #<ActiveRecord::Relation []>
+Did you mean?  empty?:
+  app/views/encomendas/index.html.erb:6:in `_app_views_encomendas_index_html_erb__437702157_95295216'
+
+Started POST "/__better_errors/3a077b2f1c6f51eb/variables" for 127.0.0.1 at 2018-11-13 21:33:29 -0200
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Encomenda Load (0.0ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE Encomenda Load (0.0ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:34:10 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (7.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 338ms (Views: 279.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/encomendas/new" for 127.0.0.1 at 2018-11-13 21:34:15 -0200
+Processing by EncomendasController#new as HTML
+  Rendering encomendas/new.html.erb within layouts/application
+  Rendered encomendas/_form.html.erb (332.9ms)
+  Rendered encomendas/new.html.erb within layouts/application (378.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 729ms (Views: 653.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 21:45:45 -0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 1211ms (Views: 878.8ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:46:19 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (8.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 338ms (Views: 287.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/encomendas/new" for 127.0.0.1 at 2018-11-13 21:46:21 -0200
+Processing by EncomendasController#new as HTML
+  Rendering encomendas/new.html.erb within layouts/application
+  Rendered encomendas/_form.html.erb (202.6ms)
+  Rendered encomendas/new.html.erb within layouts/application (246.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 620ms (Views: 538.5ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/encomendas" for 127.0.0.1 at 2018-11-13 21:46:42 -0200
+Processing by EncomendasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Wo2sd4KuJRaotAaE11fQHzs4okr2tzsd92VjQjmCX1I3rLELxnaEYMz0fOgBWuNb7t0OGJuA9yPIZKQo5/rIg==", "encomenda"=>{"arrival(1i)"=>"2018", "arrival(2i)"=>"11", "arrival(3i)"=>"13", "name"=>"moça do segundo andar", "apart"=>"11"}, "commit"=>"Create Encomenda"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/encomendas_controller.rb:30
+  [1m[36mEncomenda Create (2.5ms)[0m  [1m[32mINSERT INTO "encomendas" ("arrival", "name", "apart", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["arrival", "2018-11-13"], ["name", "moça do segundo andar"], ["apart", "11"], ["created_at", "2018-11-13 23:46:42.756482"], ["updated_at", "2018-11-13 23:46:42.756482"]]
+  ↳ app/controllers/encomendas_controller.rb:30
+  [1m[35m (350.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/encomendas_controller.rb:30
+Redirected to http://localhost:3000/encomendas/1
+Completed 302 Found in 388ms (ActiveRecord: 352.9ms)
+
+
+Started GET "/encomendas/1" for 127.0.0.1 at 2018-11-13 21:46:43 -0200
+Processing by EncomendasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEncomenda Load (1.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" WHERE "encomendas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/encomendas_controller.rb:67
+  Rendering encomendas/show.html.erb within layouts/application
+  Rendered encomendas/show.html.erb within layouts/application (20.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 384ms (Views: 330.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/encomendas/1/edit" for 127.0.0.1 at 2018-11-13 21:46:46 -0200
+Processing by EncomendasController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" WHERE "encomendas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/encomendas_controller.rb:67
+  Rendering encomendas/edit.html.erb within layouts/application
+  Rendered encomendas/_form.html.erb (17.0ms)
+  Rendered encomendas/edit.html.erb within layouts/application (62.4ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 422ms (Views: 342.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 21:47:21 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 368ms (Views: 302.5ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:47:24 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (8.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 343ms (Views: 281.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/encomendas/1/edit" for 127.0.0.1 at 2018-11-13 21:47:28 -0200
+Processing by EncomendasController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" WHERE "encomendas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/encomendas_controller.rb:67
+  Rendering encomendas/edit.html.erb within layouts/application
+  Rendered encomendas/_form.html.erb (36.4ms)
+  Rendered encomendas/edit.html.erb within layouts/application (79.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 413ms (Views: 354.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:47:41 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (7.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 347ms (Views: 281.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/encomendas/new" for 127.0.0.1 at 2018-11-13 21:47:43 -0200
+Processing by EncomendasController#new as HTML
+  Rendering encomendas/new.html.erb within layouts/application
+  Rendered encomendas/_form.html.erb (16.5ms)
+  Rendered encomendas/new.html.erb within layouts/application (60.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 465ms (Views: 397.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/encomendas" for 127.0.0.1 at 2018-11-13 21:47:55 -0200
+Processing by EncomendasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Iov6RHtvPHruB0WyjzM6peOyeKdCqKLak/h4EdosVcSXP34xinxe/zeWRFs8aw5o8OXuFgscfeprBH8McVW3mw==", "encomenda"=>{"arrival(1i)"=>"2018", "arrival(2i)"=>"11", "arrival(3i)"=>"13", "name"=>"moço do nono andar", "apart"=>"98"}, "commit"=>"Create Encomenda"}
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/encomendas_controller.rb:30
+  [1m[36mEncomenda Create (51.0ms)[0m  [1m[32mINSERT INTO "encomendas" ("arrival", "name", "apart", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["arrival", "2018-11-13"], ["name", "moço do nono andar"], ["apart", "98"], ["created_at", "2018-11-13 23:47:55.261343"], ["updated_at", "2018-11-13 23:47:55.261343"]]
+  ↳ app/controllers/encomendas_controller.rb:30
+  [1m[35m (128.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/encomendas_controller.rb:30
+Redirected to http://localhost:3000/encomendas/2
+Completed 302 Found in 204ms (ActiveRecord: 179.9ms)
+
+
+Started GET "/encomendas/2" for 127.0.0.1 at 2018-11-13 21:47:55 -0200
+Processing by EncomendasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" WHERE "encomendas"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/encomendas_controller.rb:67
+  Rendering encomendas/show.html.erb within layouts/application
+  Rendered encomendas/show.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 345ms (Views: 293.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/encomendas/2/edit" for 127.0.0.1 at 2018-11-13 21:47:59 -0200
+Processing by EncomendasController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEncomenda Load (1.0ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" WHERE "encomendas"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/encomendas_controller.rb:67
+  Rendering encomendas/edit.html.erb within layouts/application
+  Rendered encomendas/_form.html.erb (39.9ms)
+  Rendered encomendas/edit.html.erb within layouts/application (97.3ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 431ms (Views: 376.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 21:53:28 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 390ms (Views: 297.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:53:35 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (7.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 345ms (Views: 290.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/encomendas/1" for 127.0.0.1 at 2018-11-13 21:53:52 -0200
+Processing by EncomendasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" WHERE "encomendas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/encomendas_controller.rb:67
+  Rendering encomendas/show.html.erb within layouts/application
+  Rendered encomendas/show.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 332ms (Views: 266.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:53:55 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (8.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 342ms (Views: 287.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/encomendas/new" for 127.0.0.1 at 2018-11-13 21:54:54 -0200
+Processing by EncomendasController#new as HTML
+  Rendering encomendas/new.html.erb within layouts/application
+  Rendered encomendas/_form.html.erb (35.9ms)
+  Rendered encomendas/new.html.erb within layouts/application (86.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 434ms (Views: 378.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:57:15 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.0ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (8.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 351ms (Views: 292.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:58:23 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.0ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (7.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 333ms (Views: 286.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/encomendas/2" for 127.0.0.1 at 2018-11-13 21:58:28 -0200
+Processing by EncomendasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT  "encomendas".* FROM "encomendas" WHERE "encomendas"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/encomendas_controller.rb:67
+  Rendering encomendas/show.html.erb within layouts/application
+  Rendered encomendas/show.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 323ms (Views: 264.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:58:33 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.0ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (6.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 318ms (Views: 271.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/encomendas/new" for 127.0.0.1 at 2018-11-13 21:58:34 -0200
+Processing by EncomendasController#new as HTML
+  Rendering encomendas/new.html.erb within layouts/application
+  Rendered encomendas/_form.html.erb (32.9ms)
+  Rendered encomendas/new.html.erb within layouts/application (76.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 406ms (Views: 346.1ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-13 21:58:37 -0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9yUFlX+cZNJERInN9vz66EgGrfPLpdlrz794HU8xKES3bJxzUuN1JQzVqAEkZwkeYsZzB3Hb50d0RXQaRp0hrQ=="}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 21:58:37 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-13 21:58:37 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (80.8ms)
+Completed 200 OK in 496ms (Views: 494.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-13 21:58:45 -0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9nqpDT0M/Xf1Af9hfUNcKild8T40deI6qCthYhMPcu1VpuJcnYiKUvo5oAn4FOMEimPODVeuvCdwuvnSzUYrZQ==", "user"=>{"email"=>"amado.batista@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "amado.batista@gmail.com"], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (2.4ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-11-13 23:58:45.612672"], ["last_sign_in_at", "2018-11-13 21:32:39.674551"], ["sign_in_count", 3], ["updated_at", "2018-11-13 23:58:45.615851"], ["id", 4]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (175.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 837ms (ActiveRecord: 179.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-13 21:58:46 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 354ms (Views: 303.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 21:58:48 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (8.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 351ms (Views: 293.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 22:02:50 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (769.4ms)
+Completed 500 Internal Server Error in 1037ms (ActiveRecord: 1.0ms)
+
+
+
+NameError - undefined local variable or method `root' for #<#<Class:0x711d338>:0x7334490>:
+  app/views/encomendas/index.html.erb:37:in `_app_views_encomendas_index_html_erb___519346121_60402132'
+
+Started POST "/__better_errors/c49abc9b452221a7/variables" for 127.0.0.1 at 2018-11-13 22:02:52 -0200
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 22:03:42 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (10.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 357ms (Views: 300.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/conversations" for 127.0.0.1 at 2018-11-13 22:03:46 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.0ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 335ms (Views: 275.5ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 22:03:50 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (7.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 346ms (Views: 285.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/conversations" for 127.0.0.1 at 2018-11-13 22:03:55 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:4
+  [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:15
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:18
+  Rendered conversations/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 340ms (Views: 274.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 22:03:57 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.5ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (9.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 330ms (Views: 276.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/encomendas/new" for 127.0.0.1 at 2018-11-13 22:03:59 -0200
+Processing by EncomendasController#new as HTML
+  Rendering encomendas/new.html.erb within layouts/application
+  Rendered encomendas/_form.html.erb (33.5ms)
+  Rendered encomendas/new.html.erb within layouts/application (77.6ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 422ms (Views: 363.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/encomendas" for 127.0.0.1 at 2018-11-13 22:04:08 -0200
+Processing by EncomendasController#index as HTML
+  Rendering encomendas/index.html.erb within layouts/application
+  [1m[36mEncomenda Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "encomendas" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/encomendas/index.html.erb:6
+  [1m[36mEncomenda Load (0.0ms)[0m  [1m[34mSELECT "encomendas".* FROM "encomendas"[0m
+  ↳ app/views/encomendas/index.html.erb:19
+  Rendered encomendas/index.html.erb within layouts/application (7.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:42
+Completed 200 OK in 321ms (Views: 273.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 22:09:31 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 424ms (Views: 417.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 22:12:32 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (40.1ms)
+Completed 200 OK in 458ms (Views: 451.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 22:13:47 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 475ms (Views: 463.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 22:13:52 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 434ms (Views: 427.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-13 22:14:22 -0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 449ms (Views: 441.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/conversations" for 127.0.0.1 at 2018-11-13 22:14:27 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/conversations"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
