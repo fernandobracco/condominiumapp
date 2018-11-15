@@ -9123,3 +9123,2473 @@ puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
 puma (3.12.0) lib/puma/server.rb:472:in `process_client'
 puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddFuncaoToUsers (20181115012610)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[35mALTER TABLE "users" ADD "funcao" integer[0m
+  ↳ db/migrate/20181115012610_add_funcao_to_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181115012610"]]
+  ↳ bin/rails:9
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.0ms)[0m  [1m[33mUPDATE "users" SET "funcao" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["funcao", 1], ["updated_at", "2018-11-15 01:37:01.736049"], ["id", 5]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.0ms)[0m  [1m[33mUPDATE "users" SET "funcao" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["funcao", 1], ["updated_at", "2018-11-15 01:37:19.940189"], ["id", 1]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.0ms)[0m  [1m[33mUPDATE "users" SET "funcao" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["funcao", 1], ["updated_at", "2018-11-15 01:37:19.955768"], ["id", 2]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.0ms)[0m  [1m[33mUPDATE "users" SET "funcao" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["funcao", 1], ["updated_at", "2018-11-15 01:37:19.955768"], ["id", 3]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.0ms)[0m  [1m[33mUPDATE "users" SET "funcao" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["funcao", 1], ["updated_at", "2018-11-15 01:37:19.971394"], ["id", 4]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.0ms)[0m  [1m[33mUPDATE "users" SET "funcao" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["funcao", 3], ["updated_at", "2018-11-15 01:37:41.923209"], ["id", 5]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:38:14 -0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:53
+  Rendered avisos/suatela.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 281ms (Views: 255.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:38:24 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:43:20 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id into (5)) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (31.2ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id into (5)) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `funcao' for #<User::ActiveRecord_Relation:0x3f664e0>:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_40971276'
+
+Started POST "/__better_errors/98f61bf54303b7bc/variables" for 127.0.0.1 at 2018-11-14 23:43:20 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id into (5)) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id into (5)) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:43:20 -0200
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:43:39 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `funcao' for #<User::ActiveRecord_Relation:0xcb52678>:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_106008144'
+
+Started POST "/__better_errors/b49802da5e9475e0/variables" for 127.0.0.1 at 2018-11-14 23:43:39 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:43:39 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:43:54 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `funcaos' for #<User::ActiveRecord_Relation:0xcbcce98>:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_107822832'
+
+Started POST "/__better_errors/7d133ee9fffb6b87/variables" for 127.0.0.1 at 2018-11-14 23:43:54 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:43:54 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:44:09 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:44:10 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:44:22 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:44:22 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:44:34 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `names' for #<User::ActiveRecord_Relation:0x6b9c940>
+Did you mean?  name:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_125187060'
+
+Started POST "/__better_errors/3196452c3e4dceb0/variables" for 127.0.0.1 at 2018-11-14 23:44:34 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:44:34 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:44:42 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `email' for #<User::ActiveRecord_Relation:0xfe5d730>:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_133113540'
+
+Started POST "/__better_errors/f82a60afb447774d/variables" for 127.0.0.1 at 2018-11-14 23:44:42 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:44:42 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:44:49 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (31.2ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `emails' for #<User::ActiveRecord_Relation:0xc80bae8>:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_111966216'
+
+Started POST "/__better_errors/3588cc24debd5d17/variables" for 127.0.0.1 at 2018-11-14 23:44:49 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:44:49 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:45:03 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `created_at' for #<User::ActiveRecord_Relation:0x3f84228>
+Did you mean?  create:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_33157632'
+
+Started POST "/__better_errors/6808672a7a7704a4/variables" for 127.0.0.1 at 2018-11-14 23:45:03 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:45:03 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:45:13 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "users"."id" FROM "users" WHERE (id like 1)[0m
+  ↳ app/views/avisos/suatela.html.erb:53
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 106ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:45:14 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:45:23 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `id' for #<User::ActiveRecord_Relation:0xc759660>
+Did you mean?  ids:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_104767140'
+
+Started POST "/__better_errors/2cef5c3781963801/variables" for 127.0.0.1 at 2018-11-14 23:45:23 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 1) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:45:23 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:45:43 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (15.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 2) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (17.7ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 15.6ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 2) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `names' for #<User::ActiveRecord_Relation:0x6855198>
+Did you mean?  name:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_45501876'
+
+Started POST "/__better_errors/d7b5b6373ad4dd0c/variables" for 127.0.0.1 at 2018-11-14 23:45:43 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 2) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 2) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:45:43 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:45:47 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 687ms (Views: 394.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:45:48 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:45:53 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 79ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:45:53 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:46:16 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:46:16 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:46:45 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 79ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:46:47 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:47:14 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "users"."id" FROM "users" WHERE (id like 5)[0m
+  ↳ app/views/avisos/suatela.html.erb:53
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:47:15 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:50:57 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:51:17 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:51:17 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (1533.9ms)
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:51:21 -0200
+Processing by AvisosController#suatela as HTML
+Completed 200 OK in 3870ms (Views: 3533.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 109ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:51:21 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:51:40 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `funcao' for #<User::ActiveRecord_Relation:0xf1cc6e0>:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_125671188'
+
+Started POST "/__better_errors/45dca18eff3c67ff/variables" for 127.0.0.1 at 2018-11-14 23:51:41 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:51:41 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:51:50 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `funcaos' for #<User::ActiveRecord_Relation:0xc36f720>:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_122663196'
+
+Started POST "/__better_errors/eda2b1909ac01233/variables" for 127.0.0.1 at 2018-11-14 23:51:50 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:51:50 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:51:55 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+
+NoMethodError - undefined method `funcoes' for #<User::ActiveRecord_Relation:0xee4d9f0>:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_125422176'
+
+Started POST "/__better_errors/e1ef1547c1f62768/variables" for 127.0.0.1 at 2018-11-14 23:51:55 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id like 5) LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:51:55 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-14 23:56:25 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (?, ?)[0m  [["id", 0], ["id", 5]]
+  ↳ app/views/avisos/suatela.html.erb:53
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.0ms)
+
+
+
+ActiveRecord::RecordNotFound - Couldn't find all Users with 'id': (id like ?, 5) (found 1 results, but was looking for 2).:
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_104612520'
+
+Started POST "/__better_errors/152bfefb8cba9c31/variables" for 127.0.0.1 at 2018-11-14 23:56:25 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-14 23:56:25 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:01:47 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  Rendered avisos/suatela.html.erb within layouts/application (31.3ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+
+ArgumentError - Unsupported argument type: 5 (Fixnum):
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_112474344'
+
+Started POST "/__better_errors/f6d239aa660e0569/variables" for 127.0.0.1 at 2018-11-15 00:01:47 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:01:47 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:01:59 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.0ms)
+
+
+
+ArgumentError - Unsupported argument type: 1 (Fixnum):
+  app/views/avisos/suatela.html.erb:53:in `_app_views_avisos_suatela_html_erb___467838579_30084900'
+
+Started POST "/__better_errors/6436fd019fbf6ac8/variables" for 127.0.0.1 at 2018-11-15 00:01:59 -0200
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mAviso Load (15.6ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:01:59 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:02:43 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:53
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:02:44 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:02:54 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:53
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:02:55 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:03:01 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:53
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:03:02 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:03:12 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:53
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:54
+  Rendered avisos/suatela.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 79ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:03:12 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:05:15 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:57
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:05:15 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-15 00:35:17 -0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Fyq8bqE9IiwBRanpaF0oqfqNsH4eBauPkT58IVvRJpnSNRraJH+3W0LP/fI3RHsw2al+4UhJ4tah4gouMxi8bA=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-15 00:35:17 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-15 00:35:17 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 141ms (Views: 146.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:35:18 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-15 00:35:19 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 125ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-15 00:40:45 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 125ms (Views: 121.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:40:46 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2018-11-15 00:41:16 -0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n92TIVdT4o2Gv01ZZWjzVc7tFLsFrlOMREe3Npnb8G4hQs6CVXR/zdPSOLde7RrIo7fGgJWkXTs2SIE9VkxKcQ==", "user"=>{"name"=>"Marquinhos", "email"=>"marquinhos@marquinhos.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "funcao"=>"1", "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "marquinhos@marquinhos.com"], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (0.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "marquinhos@marquinhos.com"], ["encrypted_password", "$2a$11$PlkOU4nUfSG0pzDH6C.D.eR7OziBCC5WyH.kBKaUcW9CwY16KFmBu"], ["name", "Marquinhos"], ["created_at", "2018-11-15 02:41:16.395668"], ["updated_at", "2018-11-15 02:41:16.395668"]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (31.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.0ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", "2018-11-15 02:41:16.426923"], ["last_sign_in_at", "2018-11-15 02:41:16.426923"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["updated_at", "2018-11-15 02:41:16.426923"], ["id", 6]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 268ms (ActiveRecord: 31.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-15 00:41:16 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:5
+  [1m[36mConversation Load (0.0ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:16
+  Rendered conversations/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 109ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:41:16 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:41:43 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:57
+  Rendered avisos/suatela.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 98ms (Views: 88.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/avisos/1/criar_aviso" for 127.0.0.1 at 2018-11-15 00:41:55 -0200
+Processing by AvisosController#criar_aviso as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VMWmn+gGWhBEeRUMnENDXrpwpfl3K32kS2wS1hJXL8/ASD0u7h/kxZMcE7mCSlMLto0/MZulQWzVYusGKsVp6Q==", "usuario_id"=>"6", "texto"=>"fiz um aviso novo pro meu pai", "commit"=>"Enviar Aviso!", "id"=>"1"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/avisos_controller.rb:37
+  [1m[36mAviso Create (0.0ms)[0m  [1m[32mINSERT INTO "avisos" ("usuario_id", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["usuario_id", 6], ["texto", "fiz um aviso novo pro meu pai"], ["created_at", "2018-11-15 02:41:55.551768"], ["updated_at", "2018-11-15 02:41:55.551768"]]
+  ↳ app/controllers/avisos_controller.rb:37
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/avisos_controller.rb:37
+Redirected to http://localhost:3000/inicio
+Completed 302 Found in 16ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:41:55 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:57
+  Rendered avisos/suatela.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 94ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:41:55 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started DELETE "/avisos/4" for 127.0.0.1 at 2018-11-15 00:42:14 -0200
+Processing by AvisosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VFtIHtJnQdGY2X/zSk/+Nf8jkVrEa8Uq3tPgsaVhB5DqxBW90EDckc20Ch1xyheoknlDYVRhy52s3Na6ava9jw==", "id"=>"4"}
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" WHERE "avisos"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/avisos_controller.rb:121
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/avisos_controller.rb:111
+  [1m[36mAviso Destroy (0.0ms)[0m  [1m[31mDELETE FROM "avisos" WHERE "avisos"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/avisos_controller.rb:111
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/avisos_controller.rb:111
+Redirected to http://localhost:3000/inicio
+Completed 302 Found in 16ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:42:14 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:57
+  Rendered avisos/suatela.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:42:14 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/avisos/1/criar_aviso" for 127.0.0.1 at 2018-11-15 00:42:25 -0200
+Processing by AvisosController#criar_aviso as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b19cU7DxDxh2mPDEce+/B7QAfFz2aOAwfxxBP4ubsyHRwAHwstaSWCP1hSpKalaa2VquZ2Zi7ocNE3c0RAwJPg==", "usuario_id"=>"6", "texto"=>"Fiz um aviso novo pro meu pai!", "commit"=>"Enviar Aviso!", "id"=>"1"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/avisos_controller.rb:37
+  [1m[36mAviso Create (0.0ms)[0m  [1m[32mINSERT INTO "avisos" ("usuario_id", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["usuario_id", 6], ["texto", "Fiz um aviso novo pro meu pai!"], ["created_at", "2018-11-15 02:42:25.427416"], ["updated_at", "2018-11-15 02:42:25.427416"]]
+  ↳ app/controllers/avisos_controller.rb:37
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/avisos_controller.rb:37
+Redirected to http://localhost:3000/inicio
+Completed 302 Found in 16ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:42:25 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (15.6ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:57
+  Rendered avisos/suatela.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 95ms (Views: 77.1ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:42:25 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-15 00:42:30 -0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2FiPfiBJy5Wu0FrNqy2iFf3sgZmpLakLhbenfeSUyXxmx9LdIm5W1fu9LyOQqEuIkLZTojknp7z3uJF2KwNzYw=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-15 00:42:30 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-15 00:42:30 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 126ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:42:31 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-15 00:42:48 -0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"abXhr2Cn9OOHc8ClNJcVGOvcj9byGJDc1YqyXSNi47l4tyv13PiGmkLArNfb8ncwlsQUKCzc/+rpbuP1Y39x5A==", "user"=>{"email"=>"chandler.kluser@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "chandler.kluser@gmail.com"], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.0ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-11-15 02:42:48.694556"], ["last_sign_in_at", "2018-11-15 01:13:26.849207"], ["sign_in_count", 3], ["updated_at", "2018-11-15 02:42:48.694556"], ["id", 5]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 250ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-15 00:42:48 -0200
+Processing by ConversationsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendering conversations/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/conversations/index.html.erb:5
+  [1m[36mConversation Load (0.0ms)[0m  [1m[34mSELECT "conversations".* FROM "conversations"[0m
+  ↳ app/views/conversations/index.html.erb:16
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/conversations/index.html.erb:19
+  Rendered conversations/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:42:49 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inicio" for 127.0.0.1 at 2018-11-15 00:42:50 -0200
+Processing by AvisosController#suatela as HTML
+  Rendering avisos/suatela.html.erb within layouts/application
+  [1m[36mAviso Load (0.0ms)[0m  [1m[34mSELECT  "avisos".* FROM "avisos" ORDER BY created_at DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/avisos/suatela.html.erb:25
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:28
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/avisos/suatela.html.erb:45
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "avisos"[0m
+  ↳ app/views/avisos/suatela.html.erb:57
+  Rendered avisos/suatela.html.erb within layouts/application (1629.0ms)
+Completed 200 OK in 2619ms (Views: 2312.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-15 00:42:58 -0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"y395cN5tLPODmZf1ZJuow069s3NN7mVe2HKFZ6FpDB4iW/3uD+akib9JbUxkj+3IQ7O+uQhbL4yXfD4LZL+IyA=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-15 00:42:58 -0200
+Processing by ConversationsController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-15 00:42:58 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 156ms (Views: 156.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-15 00:42:58 -0200
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
