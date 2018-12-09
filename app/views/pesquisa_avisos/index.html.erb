@@ -1,0 +1,23 @@
+<%= link_to 'Voltar à Página Inicial', 'conversations#index' %><br>
+<h1>Pesquisa Avançada</h1>
+<%= form_tag(inicio_path ,:method => :get) do %>
+
+    <div class="">
+        Pesquisar por <%= text_field_tag 'texto', nil, size: 50, placeholder: 'texto' %>
+    </div>
+    <br>
+    <div class="">
+        Cujo autor contém as letras <%= text_field_tag 'autor', nil, size: 10, placeholder: 'autor' %>, mora no apartamento <%= text_field_tag 'apto', nil, size: 10, placeholder: 'Apartamento'%> e tem ID <%= text_field_tag 'autor_id', nil, size: 10, placeholder: 'ID do autor'%>
+    </div>
+    <br>
+    <div class="">
+        E foi postada entre <%= date_field_tag(:datetime_inicio, nil)%> e <%= date_field_tag(:datetime_fim, nil)%>
+    </div>
+    <br>
+    <div class="">
+        Filtrar por função: <%= select_tag :funcao, options_for_select([["Todos", 0],["Condômino", 1], ["Funcionário", 2], ["Síndico", 3]]) %>
+    </div>
+    <br>
+    <%= hidden_field_tag 'ident', 2 %>
+    <%= submit_tag "Pesquisa Avançada" %>
+<% end %>

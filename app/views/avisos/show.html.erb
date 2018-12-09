@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @aviso.usuario_id %>
+</p>
+
+<p>
+  <strong>Texto:</strong>
+  <%= @aviso.texto %>
+</p>
+
+<%= link_to 'Edit', edit_aviso_path(@aviso) %> |
+<%= link_to 'Back', avisos_path %>
