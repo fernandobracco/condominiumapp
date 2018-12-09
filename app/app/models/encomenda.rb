@@ -1,2 +1,0 @@
-class Encomenda < ApplicationRecord
-end
