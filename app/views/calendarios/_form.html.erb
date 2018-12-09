@@ -1,0 +1,57 @@
+<%= form_for @calendario, :html => { :class => "form-horizontal calendario" } do |f| %>
+
+  <% if @calendario.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@calendario.errors.count, "error") %> prohibited this calendario from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @calendario.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= f.label :nome %>
+    <div class="col-lg-10">
+    <%= f.text_field :name, id: :calendario_name %>
+    </div>
+    <%=f.error_span(:name) %>
+  </div>
+  <div class="form-group">
+    <%= f.label :Início  %>
+    <div class="col-lg-10">
+    
+    <%= f.datetime_select :start_time, id: :calendario_start_time %>
+     
+    </div>
+    <%=f.error_span(:start_time) %>
+  </div>
+  <div class="form-group">
+    <%= f.label :Fim %>
+    <div class="col-lg-10">
+    <%= f.datetime_select :end_time, id: :calendario_end_time %>
+    </div>
+    <%=f.error_span(:end_time) %>
+  </div>
+  <div class="form-group">
+    <%= f.label :descricao %>
+    <div class="col-lg-10">
+      <%= f.text_field :descricao, :class => 'form-control' %>
+    </div>
+    <%=f.error_span(:descricao) %>
+  </div>
+
+  <div class="form-group">
+    <div class="col-lg-offset-2 col-lg-10">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                calendarios_path, :class => 'btn btn-default' %>
+    </div>
+  </div>
+
+<% end %>
