@@ -40,6 +40,15 @@ ActiveRecord::Schema.define(version: 2018_11_26_155334) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "calendarios", force: :cascade do |t|
+    t.string "name"
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.string "descricao"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "conversations", force: :cascade do |t|
     t.integer "sender_id"
     t.integer "recipient_id"
