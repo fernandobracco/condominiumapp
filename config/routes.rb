@@ -20,4 +20,8 @@ Rails.application.routes.draw do
   resources :discussions
   #route para discussão, falar com zé Olenscki caso tenha duvida
 
+  root to: 'calendarios#index'
+  resources :calendarios
+  #route para criação eventos, falar com zé Rafael caso tenha duvida
+
 end
