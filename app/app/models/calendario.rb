@@ -1,2 +1,0 @@
-class Calendario < ApplicationRecord
-end
