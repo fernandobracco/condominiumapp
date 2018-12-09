@@ -77,3 +77,7 @@ group :development, :test do
   gem 'guard'
   gem 'guard-livereload'
 end
+## Zé R - Calendario e view
+gem "simple_calendar", "~> 2.0"
+gem "twitter-bootstrap-rails"
+gem 'rails-i18n'
