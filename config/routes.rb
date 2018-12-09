@@ -15,4 +15,9 @@ Rails.application.routes.draw do
 
   devise_for :users
   root to: 'conversations#index'
+
+  root to: 'discussions#index'
+  resources :discussions
+  #route para discussão, falar com zé Olenscki caso tenha duvida
+
 end
