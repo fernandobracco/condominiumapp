@@ -1,0 +1,2 @@
+class Encomenda < ApplicationRecord
+end

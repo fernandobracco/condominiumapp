@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<h4>Reclamações</h4>
+
+<table class="stripped">
+  <thead>
+    <tr>
+      <th>Titulo</th>
+      <th>Sua reclamação</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @discussions.each do |discussion| %>
+      <tr>
+        <td><%= discussion.headline %></td>
+        <td><%= discussion.content %></td>
+        <td><%= link_to 'Mostrar', discussion %></td>
+        <td><%= link_to 'Editar', edit_discussion_path(discussion) %></td>
+        <td><%= link_to 'Excluir', discussion, method: :delete, data: { confirm: 'Você tem certeza?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Nova Reclamação', new_discussion_path, class: "waves-effect waves light btn" %>
+<div>
+<%= link_to 'Voltar à Página Inicial', 'conversations#index' %>
+<div>
