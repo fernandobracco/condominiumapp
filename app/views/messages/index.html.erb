@@ -1,4 +1,4 @@
-<h1 class="title is-4">Message <%= @conversation.recipient.name %></h1>
+<h1 class="title is-4">Messagens com <%= @conversation.recipient.name %></h1>
 
 <% if @over_ten %>
   <%= link_to "Show previous", '?m=all', class:'button is-link' %>
@@ -22,7 +22,7 @@
 </section>
 
 <%= form_for [@conversation, @message] do |f| %>
-  <%= f.text_area :body, class: "textarea", placeholder: "Inquire about a person..." %>
+  <%= f.text_area :body, class: "textarea", placeholder: "Digite aqui sua mensagem" %>
   <%= f.text_field :user_id, value: current_user.id, type: "hidden"  %>
   <div class="text-align-right">
     <%= f.submit "Send message", class: "button is-link is-large mt3" %>
